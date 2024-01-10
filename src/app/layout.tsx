@@ -20,7 +20,7 @@ export default function RootLayout({
 
       <body className="h-screen w-screen">
         <Navbar/>
-        <main className='px-10 h-full pt-20 max-w-7xl mx-auto'>
+        <main className='px-0 h-full pt-20 max-w-7xl mx-auto'>
         {children}
 
         </main>
