@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ShopSection({title}:{title:string}) {
+function ShopSection({title,images}:{title:string,images:any[]}) {
   return (
     <div className="flex w-full flex-col">
     <div className=' w-full text-xl  justify-between flex'>
@@ -9,12 +9,12 @@ function ShopSection({title}:{title:string}) {
     </div>
     {/* Show */}
     <div className="grid xl:grid-cols-6 md:grid-cols-4 gap-4 mt-2">
-      <div className="h-[150px] w-full rounded-md bg-black "></div>
-      <div className="h-[150px] w-full rounded-md bg-black "></div>
-      <div className="h-[150px] w-full rounded-md bg-black "></div>
-      <div className="h-[150px] w-full rounded-md bg-black "></div>
-      <div className="h-[150px] w-full rounded-md bg-black "></div>
-      <div className="h-[150px] w-full rounded-md bg-black "></div>
+      <img className=" object-cover h-[150px] w-full rounded-md bg-black " src={`${images[0]}`} />
+      <img className=" object-cover h-[150px] w-full rounded-md bg-black " src={`${images[1]}`} />
+      <img className=" object-cover h-[150px] w-full rounded-md bg-black " src={`${images[2]}`} />
+      <img className=" object-cover h-[150px] w-full rounded-md bg-black " src={`${images[3]}`} />
+      <img className=" object-cover h-[150px] w-full rounded-md bg-black " src={`${images[4]}`} />
+      <img className=" object-cover h-[150px] w-full rounded-md bg-black " src={`${images[5]}`} />
 
     </div>
   </div>
