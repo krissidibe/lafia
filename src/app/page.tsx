@@ -3,7 +3,7 @@ import React from 'react'
 
 function page() {
   return (
-    <div >
+    <div className=' px-10 xl:px-0' >
 
       <h1 className='text-2xl font-bold pt-10 pb-4'>Espace Pub</h1>
       
@@ -35,29 +35,31 @@ function page() {
    /> 
    <ShopSection title="Restaurants & Hotel"
    images={[
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Frestaurant-food&psig=AOvVaw2Fn-ISMmQC0GaAjK3e7zPf&ust=1705004335207000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwir45if0tODAxVoVaQEHfOtBjMQjRx6BAgAEBY",
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tasteofhome.com%2Fcollection%2Fsoul-food-restaurants%2F&psig=AOvVaw1OZgtM0X-_kzOqeYQCxdPV&ust=1705004336434000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwjt1OOf0tODAxUBnCcCHfRzAIoQjRx6BAgAEBY",
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.timesofindia.com%2Flife-style%2Ffood-news%2Fworlds-legendary-restaurant-list-includes-7-indian-restaurants%2Farticleshow%2F101282780.cms&psig=AOvVaw0mAjFd2jhCKOyhE1QkiFv2&ust=1705004337404000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwix7p6g0tODAxVd7AIHHVXCCE8QjRx6BAgAEBY",
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cbsnews.com%2Fnews%2Frestaurant-meals-can-be-as-bad-for-you-as-fast-food%2F&psig=AOvVaw2vqeTyfVbDKrBc7icJfkjy&ust=1705004338360000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwiRotmg0tODAxXx7gIHHcjkBHMQjRx6BAgAEBY",
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tastingtable.com%2F1178512%2Fcelebrity-chefs-and-their-favorite-fast-food-restaurants%2F&psig=AOvVaw2tZLYUgiHnu-iso5L0l6dT&ust=1705004339167000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwj5voqh0tODAxWlkicCHV4vDHsQjRx6BAgAEBY",
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.yemeksepeti.com%2Fen%2Frestaurant%2Fqw7x%2Frango-fine-fast-food&psig=AOvVaw2tZLYUgiHnu-iso5L0l6dT&ust=1705004339167000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNj0pLXS04MDFQAAAAAdAAAAABAD",
+    "https://media.istockphoto.com/id/1457979959/photo/snack-junk-fast-food-on-table-in-restaurant-soup-sauce-ornament-grill-hamburger-french-fries.webp?b=1&s=170667a&w=0&k=20&c=A_MdmsSdkTspk9Mum_bDVB2ko0RKoyjB7ZXQUnSOHl0=",
+    "https://khni.kerry.com/wp-content/uploads/2019/02/Restaurant-meal-1024x680.jpg",
+    "https://media-cdn.tripadvisor.com/media/photo-s/05/d4/83/3f/fast-food-restaurant.jpg",
+    "https://lh3.googleusercontent.com/e8aD2q1til8ho4Gz82-G8GuHH-q5STXVOgJ04RP8EIFFrwZ7ZVk5mjD3ziSnh3UREyV3vDSgeW-gZuksiaT4Hw=w5281-h5281-c-rj-v1-e365",
+    "https://khni.kerry.com/wp-content/uploads/2019/02/Restaurant-meal-1024x680.jpg",
+    "https://howtostartanllc.com/images/business-ideas/business-idea-images/fast-food.jpg",
     
    ]}
    
    /> 
    <ShopSection title="Agence"
    images={[
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.laresidence.fr%2Fagences-immobilieres%2Fbeauchamp&psig=AOvVaw2Fu2hWGSTP7euT55j34lrx&ust=1705004416221000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwjovenF0tODAxWSwwIHHQf0DvQQjRx6BAgAEBY",
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lecoindesentrepreneurs.fr%2Fcreer-une-agence-de-voyage%2F&psig=AOvVaw0SFlnZr45BTwCgvGcVDAPO&ust=1705004418642000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwjdnv3G0tODAxVU7AIHHYe2BVYQjRx6BAgAEBY",
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.illico-travaux.com%2Flocaux-professionnels%2Famenager-une-agence-immobiliere%2F&psig=AOvVaw0IzjXpFH5XC2ZWVPGnZNWj&ust=1705004420171000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwigytrH0tODAxVW3QIHHTGUBdkQjRx6BAgAEBY",
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.solocal.com%2Fressources%2Farticles%2Fchoisir-agence-communication-digitale&psig=AOvVaw0OldyhlwNmY8X92FWgCuhf&ust=1705004421164000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwjwm5fI0tODAxUG3gIHHfSHAi8QjRx6BAgAEBY",
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pole-emploi.fr%2Factualites%2Fle-dossier%2Fcommerce-vente%2Fcommerciale%2Fchef-dagence-hf.html&psig=AOvVaw1D2VTdWI_H2GQCVe5FO-te&ust=1705004422119000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwi4vtHI0tODAxWb6AIHHSm2BGEQjRx6BAgAEBY",
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flatlooker.com%2Fressources%2Farticles%2Fagences-immobilieres-en-ligne-comparatif-agences-classiques&psig=AOvVaw39U6JyoDX9DnfCTjtoi42K&ust=1705004423888000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwiPt73J0tODAxVA-gIHHbqAAtkQjRx6BAgAEBY",
+    "https://www.lecoindesentrepreneurs.fr/wp-content/uploads/2020/11/creer-une-agence-de-voyage.png",
+    "https://www.tiz.fr/app/uploads/2019/09/agence-digitale-strasbourg-alsace-tiz-1.jpg",
+    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.conseil-entreprise.org%2Fcomment-choisir-une-societe-de-nettoyage-pour-son-entreprise%2F&psig=AOvVaw3HcGAMCUOR-EvAFB-QUp3K&ust=1705058322465000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCICwzbGb1YMDFQAAAAAdAAAAABAD",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCMfYAPmYItrGON-pIZpNcPQocenkz3fpkJQ&usqp=CAU",
+    "https://kretzrealestate.com/static/3096734d2103b5dd7cb3ef24ef233b42/325e8/a9.png",
+    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.yumens.fr%2Fexpertise%2Fsea%2F&psig=AOvVaw1ssNvBA0nyf52oxN8U8897&ust=1705058209648000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMiN9Zeb1YMDFQAAAAAdAAAAABAb",
+   
     
    ]}
    
    /> 
-  {/*   
+  {/*  <ShopSection title="" /> 
+   <ShopSection title="" /> 
    <ShopSection title="Beauté et Spa" />  */}
    </div>
 
